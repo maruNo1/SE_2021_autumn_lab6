@@ -12,7 +12,7 @@ public class SampleActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sample);
     }
-/*
+
     public void sendMessage(View view) {
         Intent intent = new Intent(this, AboutActivity.class);
         startActivity(intent);
@@ -21,7 +21,7 @@ public class SampleActivity extends Activity {
         Intent intent = new Intent(this, PurchaseActivity.class);
         startActivity(intent);
     }
-*/
+
 
 
 }
