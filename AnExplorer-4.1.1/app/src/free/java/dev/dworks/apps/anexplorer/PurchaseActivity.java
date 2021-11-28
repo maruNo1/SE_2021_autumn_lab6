@@ -129,6 +129,11 @@ public class PurchaseActivity extends ActionBarActivity {
         super.onDestroy();
     }
 
+    public void onGoNewView(View view) {
+        Intent intent = new Intent(this, SampleActivity.class);
+        startActivity(intent);
+    }
+
     public void setUpDefaultStatusBar() {
         int color = Utils.getStatusBarColor(SettingsActivity.getPrimaryColor());
         if(Utils.hasLollipop()){
